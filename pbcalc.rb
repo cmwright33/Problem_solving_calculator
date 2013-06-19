@@ -14,6 +14,14 @@ def divide(a, b)
   return a / b
 end
 
+## Testing your definitions ##
+# def calculate(x,y)
+# puts add(1, 1)
+# puts subtract(1, 1)
+# puts divide(1, 1)
+# puts multiply(1, 1)
+#
+
 def prompt_numbers
   puts "Give me a number"
   a = gets.chomp.to_f
